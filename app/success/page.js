@@ -1,8 +1,8 @@
 "use client";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
-export default function Success(){
+function SuccessContent(){
   const params=useSearchParams();
   const sessionId=params.get("session_id");
   const [plan,setPlan]=useState(null);
@@ -32,4 +32,8 @@ export default function Success(){
       <div className="notice">{plan.important_notes.join(" ")}</div>
     </>}
   </main>;
+}
+
+export default function Success(){
+  return <Suspense fallback={<main className="status"><a href="/">← Edivano</a><h1 style={{fontSize:44}}>Zahlung wird geprüft…</h1></main>}><SuccessContent/></Suspense>;
 }
