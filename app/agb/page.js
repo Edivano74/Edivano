@@ -1,0 +1,1 @@
+export default function AGB(){return <main className="status"><a href="/">← Edivano</a><h1 style={{fontSize:44}}>AGB</h1><p>Die finalen Vertragsbedingungen für die digitale Reiseplanungsleistung werden vor dem öffentlichen Start ergänzt und rechtlich geprüft.</p><div className="notice">Noch nicht für den Livebetrieb freigegeben.</div></main>}
