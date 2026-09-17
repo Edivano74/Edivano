@@ -1,6 +1,4 @@
-.next
 node_modules
+.netlify
 .env
-.env.local
-.vercel
 .DS_Store

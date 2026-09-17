@@ -1,1 +1,0 @@
-export default function Impressum(){return <main className="status"><a href="/">← Edivano</a><h1 style={{fontSize:44}}>Impressum</h1><p>Diese Seite ist vor dem öffentlichen Start mit den vollständigen Pflichtangaben des Betreibers zu ergänzen.</p><div className="notice">Noch nicht für den Livebetrieb freigegeben.</div></main>}
