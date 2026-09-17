@@ -1,0 +1,1 @@
+export default function Widerruf(){return <main className="status"><a href="/">← Edivano</a><h1 style={{fontSize:44}}>Widerruf</h1><p>Die finale Widerrufsbelehrung und die erforderliche Zustimmung zum vorzeitigen Beginn der digitalen Leistung werden vor dem öffentlichen Start ergänzt.</p><div className="notice">Noch nicht für den Livebetrieb freigegeben.</div></main>}
