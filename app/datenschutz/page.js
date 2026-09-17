@@ -1,0 +1,1 @@
+export default function Datenschutz(){return <main className="status"><a href="/">← Edivano</a><h1 style={{fontSize:44}}>Datenschutz</h1><p>Die finale Datenschutzerklärung wird vor dem öffentlichen Start anhand der tatsächlich eingesetzten Dienste und Datenflüsse ergänzt.</p><div className="notice">Noch nicht für den Livebetrieb freigegeben.</div></main>}
